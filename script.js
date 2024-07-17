@@ -12,3 +12,7 @@ Array.from(tables).forEach(table => {
         }
     }
 });
+
+tables[0].addEventListener("click", () => {
+  tables[0].style.backgroundColor = "yellow";
+});
